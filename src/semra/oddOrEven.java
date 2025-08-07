@@ -6,7 +6,7 @@ public class oddOrEven {
         if (number % 2 == 0) {
             System.out.println(number + " It is an even number.");
         } else {
-            System.out.println(number + " It is an odd number.");
+            System.out.println(number + " It is an odd number..");
         }
     }
 
