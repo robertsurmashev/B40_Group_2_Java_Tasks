@@ -2,7 +2,7 @@ package riza;
 
 public class CheckNumberOddOrEven {
     public static void main(String[] args) {
-
+checkNumber(4);
     }
 
     public static void checkNumber(int num){
