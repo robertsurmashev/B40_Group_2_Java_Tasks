@@ -1,4 +1,4 @@
-package FurkanPackage;
+package Furkan;
 
 public class Furkan {
 
