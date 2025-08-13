@@ -1,6 +1,5 @@
 package gulsen;
 
-import javax.management.MBeanAttributeInfo;
 
 public class OddOrEven {
     public static void main(String[] args) {
