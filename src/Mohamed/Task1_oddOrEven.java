@@ -1,8 +1,6 @@
 package Mohamed;
 
-import java.util.Scanner;
-
-public class EvenOrOdd {
+public class Task1_oddOrEven {
 
     public static void main(String[] args) {
 
