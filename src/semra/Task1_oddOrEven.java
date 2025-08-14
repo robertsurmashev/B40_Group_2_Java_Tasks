@@ -1,6 +1,6 @@
 package semra;
 
-public class oddOrEven {
+public class Task1_oddOrEven {
 
     public static void checkEvenOrOdd(int number) {
         if (number % 2 == 0) {
