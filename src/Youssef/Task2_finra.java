@@ -9,24 +9,31 @@ public class Task2_finra {
         //for numbers which are a multiple of 5, print "RA" instead of the number.
         //for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
 
-        FINRA(18);
+        FINRA(30);
     }
+
 
     public static void FINRA(int num) {
 
-        if (num < 1 || num > 30) {
-            System.out.println("Number not in the range of 1 --> 30");
-        }
+        for (int i = 1; i <= num; i++) {
 
-            if (num % 3 == 0 && num % 5 == 0) {
+            if (i % 3 == 0 && i % 5 == 0) {
+
                 System.out.println("FINRA");
-            }else if (num % 5 == 0) {
-                System.out.println("RA");
-            }else if (num % 3 == 0) {
-                System.out.println("FIN");
-            }else {
-                System.out.println(num);
-            }
+
+            } else if (i % 5 == 0) {
+                System.out.println("RA");}
+
+            else if (i % 3 == 0) {
+                System.out.println("FIN");}
+
+            else { System.out.println(i); }
         }
     }
+}
+
+
+
+
+
 
