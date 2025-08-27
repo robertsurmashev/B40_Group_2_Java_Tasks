@@ -9,7 +9,7 @@ public class Task5_FrequencyOfCharacters_Return_Method {
 
         ArrayList<Character> arr = new ArrayList<>();
         ArrayList<Character> arr1 = new ArrayList<>();
-        String strFinal = "";
+        StringBuilder strFinal = new StringBuilder();
 
         for (Character each : str.toCharArray()) {
             arr.add(each);
@@ -18,10 +18,10 @@ public class Task5_FrequencyOfCharacters_Return_Method {
         for (Character each : arr) {
             if (!arr1.contains(each)) {
                 arr1.add(each);
-                strFinal += each + "" + Collections.frequency(arr, each);
+                strFinal.append(each).append(Collections.frequency(arr, each));
             }
         }
-        return strFinal;
+        return strFinal.toString();
     }
 
     public static void main(String[] args) {
