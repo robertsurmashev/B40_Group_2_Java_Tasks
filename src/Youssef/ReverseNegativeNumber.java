@@ -2,9 +2,11 @@ package Youssef;
 
 public class ReverseNegativeNumber {
 
+
+
    public static int reversedNegativeNumber(int num) {
 
-       String str = Integer.toString(num);
+       String str = Integer.toString(num); //
 
        String positivePart = str.substring(1);
 
@@ -17,7 +19,7 @@ public class ReverseNegativeNumber {
    }
    public static void main(String[] args) {
 
-       System.out.println(reversedNegativeNumber(-98));
+       System.out.println(reversedNegativeNumber(-687));
 
    }
 
