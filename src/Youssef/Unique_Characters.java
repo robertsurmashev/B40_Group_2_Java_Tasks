@@ -5,12 +5,13 @@ Write a return method that can find the unique characters from the String. Ex.: 
 
 public class Unique_Characters {
 
-    static String str = "AAABBBCCCDEFFkpp";
+    static String str = "AAABBBCCCDEF";
 
     public static void main(String[] args) {
         System.out.println(unique(str));
 
     }
+
         public static String unique(String str){
             String result = "";
             for(int i=0; i<str.length(); i++) {
