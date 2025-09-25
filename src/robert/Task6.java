@@ -13,7 +13,7 @@ public class Task6 {
          */
         System.out.println(uniqueChars("AAABBBCCCDEF"));
     }
-    public static StringBuilder uniqueChars(String str) {      // Used StringBuilder as return type (to get exact final String)
+    public static String uniqueChars(String str) {             // Used String as return type (to get exact final String)
 
         ArrayList<Character> arr = new ArrayList<>();          // Used an ArrayList to utilize Collections.frequency() method
 
@@ -30,6 +30,6 @@ public class Task6 {
                 strUnique.append(ch);
             }
         }
-        return strUnique;
+        return strUnique.toString();                           // Converting StringBuilder to String and return
     }
 }
